@@ -1,0 +1,8 @@
+com\shopsmart\products\controller\HealthController.class
+com\shopsmart\products\config\OpenApiConfig.class
+com\shopsmart\products\model\Producto.class
+com\shopsmart\products\model\Producto$ProductoBuilder.class
+com\shopsmart\products\ProductsServiceApplication.class
+com\shopsmart\products\controller\ProductoController.class
+com\shopsmart\products\repository\ProductoRepository.class
+com\shopsmart\products\service\ProductoService.class

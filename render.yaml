@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: shopsmart-products-service
+    runtime: java
+    buildCommand: chmod +x mvnw && ./mvnw clean package -DskipTests
+    startCommand: java -jar target/products-service-0.0.1-SNAPSHOT.jar
+    envVars:
+      - key: JAVA_VERSION
+        value: 21
+    healthCheckPath: /health
